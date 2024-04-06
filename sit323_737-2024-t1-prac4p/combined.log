@@ -1,0 +1,22 @@
+{"level":"info","message":"Parameters 14 and 13 received for addition","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"info","message":"Parameters 32 and 13 received for addition","service":"calculate-service"}
+{"level":"error","message":"n2 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"info","message":"Parameters 32 and 31 received for subtraction","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"error","message":"n2 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"info","message":"Parameters 100 and 10 received for division","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"error","message":"n2 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"info","message":"Parameters 100 and 10 received for multiplication","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"error","message":"n2 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"info","message":"Parameters 30 and 2 received for multiplication","service":"calculate-service"}
+{"level":"info","message":"Parameters 10 and 10 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 10 and 10 received for subtraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 10 and 2 received for division","service":"calculate-service"}
+{"level":"info","message":"Parameters 10 and 2 received for multiplication","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"error","message":"n2 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined please try again with a integer","service":"calculate-service"}
