@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myreplicaset
+  labels:
+    app: mywebapp
+    category: frontend
+spec:
+  # modifing to have 4 replicas
+  replicas: 4
+  selector:
+    matchLabels:
+      category: frontend
+  # template to create the replcias
+  template:
+    metadata:
+      labels:
+        category: frontend
+    spec:
+      containers:
+        - name: mynode
+          image: warrickb/nodewebapp:1.1.1
+          ports:
+            - containerPort: 3040
