@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service #Setting up the service to provide network identity for a set of Pods
+metadata:
+  name: mongo #  name of the Service
+spec:
+  ports:
+    - name: mongo # name of the port, followed by port number
+      port: 27017
+      targetPort: 27017
+  clusterIP: None
+  selector:
+    app: mongo

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim #Creating a PVC which is a enabling requests for storage by users
+metadata:
+  name: mongo-pvc #name of the PersistentVolumeClaim
+spec:
+  accessModes:
+    - ReadWriteMany #setting access mode
+  resources:
+    requests:
+      storage: 1Gi #storage amount 1 gigabyte
+  storageClassName: "demo-storage" # storage class name

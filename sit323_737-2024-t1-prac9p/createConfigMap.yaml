@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap #setting configuration data for mongodb
+metadata:
+  name: mongodb-config
+immutable: false
+data:
+  username: admin1
+  #Below states the path to store mongoDB data files, starts replication and sets replica name
+  mongodb.conf: |
+    storage:
+      dbPath: /data/db             
+    replication:
+        replSetName: "rs0"

@@ -1,0 +1,7 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass #Storage class defines the properties of the storage that can be provisioned
+metadata:
+  name: demo-storage #setting name for StorageClass
+provisioner: docker.io/hostpath #setting provisioner for dynamic provisioning
+volumeBindingMode: Immediate
+reclaimPolicy: Delete
